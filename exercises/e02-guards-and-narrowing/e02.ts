@@ -7,7 +7,6 @@ Exercise:
 	1. write an isCircle function to type guard check with a type predicate
 	2. use the in operator to narrow a type by checking for a property
 	3. use a typeof guard to check for a type
-	
 */
 
 export type Shape = Rectangle | Circle;
@@ -30,6 +29,7 @@ export interface Circle {
 
 // Notes
 // 1. we skipped the instanceof check but it's worth looking at
+// 2. More on type predicates: https://dev.to/daveturissini/aha-understanding-typescript-s-type-predicates-40ha
 
 // Reading:
 // https://www.typescriptlang.org/docs/handbook/advanced-types.html#type-guards-and-differentiating-types
