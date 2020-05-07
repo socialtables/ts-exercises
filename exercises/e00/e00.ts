@@ -13,3 +13,7 @@ interface Card {
 enum ShapeKinds {
 	Default
 }
+
+
+// For reading:
+// https://www.typescriptlang.org/docs/handbook/interfaces.html#introduction
