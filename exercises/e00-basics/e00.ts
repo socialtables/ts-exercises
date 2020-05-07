@@ -3,13 +3,36 @@ Intro:
 	We are starting a simple memory game program for kids.  There will be cards laid out in
 	a 3x4 grid, each having a shape drawn on it.
 Exercise:
-	1. Given the data defined in the test file, define the interface "Card" and use it accordingly.
-	2. Instead of the kind property being an string, create an enum with the kinds
+	1. Look at all the types!
+	2. Given the data defined in the test file, define the interface "Card" and use it accordingly.
+	3. Instead of the kind property being an string, create an enum with the kinds
 */
+
+type AllTheTypes = {
+	x: number;
+	name: string;
+	kind: ShapeKinds;
+	what: Object; // bad
+	it: object; // might be ok
+	thing: {}; // avoid if possible
+	nested: {
+		a: number;
+		b: string;
+	};
+	foo: null;
+	bar: undefined;
+	anything: any;
+	notSure: unknown; // safer than any
+}
 
 interface Card {
 	something?: unknown;
+	x: {
+		a: number;
+	};
 }
+
+
 
 enum ShapeKinds {
 	Default
