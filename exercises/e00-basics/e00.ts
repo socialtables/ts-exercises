@@ -9,7 +9,6 @@ Exercise:
 
 interface Card {
 	something?: unknown;
-	whatever: object;
 }
 
 enum ShapeKinds {

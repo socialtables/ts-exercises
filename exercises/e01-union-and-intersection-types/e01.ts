@@ -1,6 +1,8 @@
 /*
 Intro:
-	So let's talk about the shapes we want to draw on these cards
+	So let's talk about the shapes we want to draw on these cards. 
+	We know we'll at least want to draw circles and rectangles. We will probably be working with arrays of things that might
+	be circles and or rectangles so we need a more generic concept.
 Exercise:
 	Type "Shape" is missing, please try defining is as as an intersection type and then a union type.
 */
