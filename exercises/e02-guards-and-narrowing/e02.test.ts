@@ -14,7 +14,7 @@ describe("exercise 02 tests", () => {
 			expect(s.radius).toBeDefined();
 			//if (isCircle(s)) {
 				
-			//}	
+			//}
 		})
 	});
 })
