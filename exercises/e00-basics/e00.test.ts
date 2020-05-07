@@ -10,4 +10,4 @@ describe("exercise 00 tests", () => {
 		expect(cards[0]).toHaveProperty("x");
 		expect(typeof cards[0]["x"]).toBe("number");
 	});
-})
+});

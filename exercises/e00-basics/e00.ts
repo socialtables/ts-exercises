@@ -32,8 +32,6 @@ interface Card {
 	};
 }
 
-
-
 enum ShapeKinds {
 	Default
 }

@@ -13,4 +13,4 @@ describe("exercise 01 tests", () => {
 		expect(shapes[1]).toHaveProperty("height");
 		expect(typeof shapes[1]["height"]).toBe("number");
 	});
-})
+});
