@@ -1,0 +1,38 @@
+{
+    "cards": [
+        {
+            "x": 0,
+            "y": 0,
+            "shape": {
+                "kind": "rectangle",
+                "height": 100,
+                "width": 100
+            }
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "shape": {
+                "kind": "circle",
+                "radius": 50
+            }
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "shape": {
+                "kind": "rectangle",
+                "height": 100,
+                "width": 100
+            }
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "shape": {
+                "kind": "circle",
+                "radius": 50
+            }
+        }
+    ]
+}
