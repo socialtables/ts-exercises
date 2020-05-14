@@ -19,6 +19,5 @@ json-schema-to-typescript (npm): https://www.npmjs.com/package/json-schema-to-ty
 blog post w/ opinion on approach: https://spin.atomicobject.com/2018/03/26/typescript-data-validation/
 
 ## More advanced tools (not sure how good or applicable)
-swagger-to-ts: https://github.com/manifoldco/swagger-to-ts
 io-ts: https://github.com/gcanti/io-ts/blob/master/Schema.md
 purify-ts: https://gigobyte.github.io/purify/utils/Codec
