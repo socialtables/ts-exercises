@@ -4,6 +4,10 @@ import { validate } from "./lib/schema";
 import { GameState, ShapeKind } from "./e03";
 import gamestate from "./lib/gamestate.json";
 
+function isGameState(maybeState: unknown): maybeState is GameState {
+    return validate(maybeState) as boolean;
+}
+
 describe("exercise 3 - deserializing", () => {
 	test("test our ajv schema", () => {
 		const validatedState = validate(gamestate);
@@ -13,7 +17,7 @@ describe("exercise 3 - deserializing", () => {
 	test("deserialize from json", () => {
 		function visualGameState(state: GameState) {
 			//we get better intellisense here for some reason
-			const stateString = [];
+			const stateString: Array<string> = [];
 			state.cards.forEach(c => {
 				if (c.shape.kind == ShapeKind.Rectangle) {
 					stateString.push("◻️");
@@ -25,13 +29,13 @@ describe("exercise 3 - deserializing", () => {
 			console.log(stateString.join("  "))
 		}
 
-		/*if (isGameState(gamestate)) {
+		if (isGameState(gamestate)) {
 			visualGameState(gamestate);
 			gamestate.cards.forEach(c => {
 				expect(c).toBeDefined();
 				//implement more expect statements and note the not quite awesome intellisense;
 			});
-		}*/
+		}
 	});
 	
 	test("deserialize from the web", async () => {
@@ -44,12 +48,12 @@ describe("exercise 3 - deserializing", () => {
 
 		expect(data).toBeDefined();
 		//there's no intellisense here about our data, typescript knows literally nothing
-		/*if (isGameState(data)) {
+		if (isGameState(data)) {
 			expect(data).toBeDefined();
 			//intellisense is better here than with the json object
 			data.cards.forEach(c => {
 				expect(c.shape?.kind).toBeOneOf([ShapeKind.Circle, ShapeKind.Rectangle])
 			})
-		}*/
+		}
 	});
 });

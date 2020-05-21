@@ -1,5 +1,9 @@
 {
 	"parser": "@typescript-eslint/parser",
+	"env": {
+		"jest": true,
+		"node": true
+	},
 	"plugins": [
 		"@typescript-eslint",
 		"jest"

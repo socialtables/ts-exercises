@@ -1,8 +1,8 @@
 type Shape = Rectangle | Circle;
 
 export enum ShapeKind {
-	Rectangle,
-	Circle
+	Rectangle = "rectangle",
+	Circle = "circle"
 }
 
 interface Rectangle {

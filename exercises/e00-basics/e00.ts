@@ -12,7 +12,7 @@ type AllTheTypes = {
 	x: number;
 	name: string;
 	kind: ShapeKinds;
-	what: Object; // bad
+	//what: Object; // bad
 	it: object; // might be ok
 	thing: {}; // avoid if possible
 	nested: {

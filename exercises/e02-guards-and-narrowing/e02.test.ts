@@ -11,7 +11,7 @@ describe("exercise 02 tests", () => {
 
 		shapes.forEach(s => {
 			//i want to test rectangles and circles differently, how do I do dat?
-			expect(s.radius).toBeDefined();
+			//expect(s.radius).toBeDefined();
 			//if (isCircle(s)) {
 				
 			//}

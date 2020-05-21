@@ -1,5 +1,5 @@
 
-import { ShapeKind } from "./e01";
+import { Shape, ShapeKind } from "./e01";
 
 describe("exercise 01 tests", () => {
 	test("should be able to define some shapes", () => {

@@ -1,6 +1,6 @@
 import nock from "nock";
 import superagent from "superagent";
-import { GameState } from "./lib/schema";
+import { GameState } from "./lib/schema-types";
 import schema from "./lib/schema.json";
 import gamestate from "./lib/gamestate.json";
 import Ajv from "ajv";
@@ -24,7 +24,7 @@ describe("exercise 4 - code generating from schema", () => {
 		if (isGameState(data)) {
 			expect(data).toBeDefined();
 			//intellisense is better here than with the json object
-			data.cards.forEach(c => {
+			data?.cards?.forEach(c => {
 				expect(c.shape).toBeDefined();
 			})
 		}
