@@ -14,6 +14,12 @@
 
 ## Exercise Topics Covered
 
-1. Basics - primitive types and enums, unknown, null, undefined, any
-2. Union and Intersection types
-3. Type Narrowing - type predicates, typeof, the `in` keyword
+00. Basics - primitive types and enums, unknown, null, undefined, any
+01. Union and Intersection types
+02. Type Narrowing - type predicates, typeof, the `in` keyword
+03. [Deserializing from External Sources](exercises/e03-deserializing/README.md)
+04. [Code Generation From a JSON Schema](exercises/e04-code-generation-from-schema/README.md)
+05. [Generating Types From Swagger/OpenAPI Definitions](exercises/e05-swagger-to-ts/README.md)
+06. [How Does Typescript Find Types](exercises/e06-how-does-typescript-find-types/README.md)
+07. [Writing Type Declarations for Modules](exercises/e07-writing-type-declarations/README.md)
+08. [Augmenting Module Types](exercises/e08-augmenting-module-types/)
