@@ -3,5 +3,6 @@ module.exports = {
   rules: {
     'babel/new-cap': 'off',
     '@typescript-eslint/no-var-requires': 'off',
+    'import/no-unresolved': 'off',
   },
 };
