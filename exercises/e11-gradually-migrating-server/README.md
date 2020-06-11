@@ -25,7 +25,7 @@ This is just one possible way to convert a server to typescript. Feel free discu
    - outDir
    - strict (turn off)
    - target (node 10 can handle es2018)
-   - exclude (add anything outside src including dist)
+   - include (add the src dir)
      d. Make a build script
 2. Shuffle folder structure to acommodate a build step while maintaining a good entrypoint
    - find a logical entrypoint
