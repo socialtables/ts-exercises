@@ -11,5 +11,6 @@
 ## Tasks
 
 1. Install typescript, create a tsconfig with allowJs
-2. Shuffle folder structure to acommodate a build step
+2. Shuffle folder structure to acommodate a build step while maintaining a good entrypoint
 3. Convert our routes file to typescript
+4. use gitignore to ignore our generated source
