@@ -1,5 +1,5 @@
 {
-  "name": "e12-gradually-migrating-server",
+  "name": "e11-gradually-migrating-server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
