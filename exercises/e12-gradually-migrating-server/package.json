@@ -1,0 +1,36 @@
+{
+  "name": "e12-gradually-migrating-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest",
+    "format": "st-scripts format",
+    "lint": "st-scripts lint",
+    "validate": "st-scripts validate"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@socialtables/logger": "^2.2.2",
+    "mathjs": "^7.0.1",
+    "restify": "^8.5.1",
+    "restify-errors": "^8.0.2"
+  },
+  "devDependencies": {
+    "@socialtables/st-scripts": "^1.1.0",
+    "axios": "^0.19.2",
+    "jest": "^26.0.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "st-scripts pre-commit"
+    }
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
