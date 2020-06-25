@@ -11,6 +11,7 @@
         "paths": {
             "shortid": ["./types/for-training-purposes-only/shortid.d.ts"],
         },
-        "jsx": "react"
+        "jsx": "react",
+        "target": "ES2018"
     }
 }
