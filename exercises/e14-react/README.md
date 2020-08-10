@@ -10,7 +10,7 @@ Pusheen Component example (TS): https://codesandbox.io/s/dry-sunset-3gh6w
 
 ## Exercises
 --------
-1. The app is already being compiled with the ts compiler.  Take a look at the tsconfig.json to refresh on that and see what else has changed.
+1. The app is already being compiled with the ts compiler.  Take a look at the tsconfig.json to refresh on that and see what else has changed. https://react-typescript-cheatsheet.netlify.app/docs/basic/setup
 2.  Convert the Title component to typescript following the guide at: 
 https://react-typescript-cheatsheet.netlify.app/docs/basic/getting-started/function_components
 3. Convert the App component to typescript with usereducer guidance from: https://react-typescript-cheatsheet.netlify.app/docs/basic/getting-started/hooks
