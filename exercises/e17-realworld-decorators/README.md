@@ -29,4 +29,5 @@ Reading
 --------
 https://www.typescriptlang.org/docs/handbook/decorators.html
 Watch "Creating and Using Typescript Decorators" in pluralsight
+https://www.npmjs.com/package/reflect-metadata
 
